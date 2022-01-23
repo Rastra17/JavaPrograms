@@ -40,7 +40,7 @@ public class Gui implements ActionListener
 
     }
 
-    public static void main(String[] arg)
+    public static void main(String args[])
     {
         new Gui();
     }
