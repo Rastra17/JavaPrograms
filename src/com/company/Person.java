@@ -14,6 +14,8 @@ public class Person extends objects
         super(Name,Class,Rollno);
         this.Food=Food;
     }
+
+    @Override
     public void disp()
     {
         System.out.println("Hello "+this.Name+", your in class "+this.Class+
